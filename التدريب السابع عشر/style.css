@@ -1,0 +1,119 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;    
+}
+body{
+font-family: 'Varela Round', sans-serif;    
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Jura', sans-serif;    
+}
+.background{
+background-image: url(backs.png);
+height:100vh;
+background-size:cover;
+position: relative;    
+}
+.overlay{
+position: absolute;
+width:100%;
+height:100%;    
+top:0;
+left:0;
+background: rgba(0, 0, 0, 0.7);
+}
+.logo{
+position: absolute;    
+top:0;
+left:0;
+z-index:1;
+margin-left:5px;
+margin-top: 6px;
+}
+.logo-link{
+cursor: pointer;    
+}
+.navbar-list li{
+list-style: none;
+padding:5px 5px;
+margin:5px 10px;
+text-align: center;
+float:right;
+color:#999;
+text-transform: capitalize;
+border:3px solid #fff;
+border-radius: 50%;  
+}
+.navbar-list a{
+text-decoration: none;    
+}
+.navbar-list li:hover{
+background-color: rgb(132, 0, 255);
+background-size:inherit;
+color: #000;
+font-weight: bold;
+}
+.navbar-desc{
+position: absolute;
+width: 65%;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+color:red;    
+}
+.navbar-list-star {
+position: absolute;
+list-style:none;
+text-align:center;
+display:block;
+bottom:41%;
+right:50%;
+}
+.navbar-list-star li{
+position: relative; 
+display:inline-block;    
+}
+.navbar-list-star li:hover{
+cursor: pointer;     
+}
+li.active{
+color:rgb(9, 245, 253);    
+}
+li.not-active{
+color:#fff;    
+}
+li.not-active:hover{
+color:rgb(9, 245, 253);   
+}
+.clear{
+clear: both;    
+}
+/* About Section Starts */
+.about-us{
+
+}
+.about-us-content{
+
+}
+.about-us-title{
+text-transform:uppercase;
+letter-spacing: 3px;
+font-weight: bold;
+color: #212121;
+margin-left:80px;    
+}
+.about-us-p-one{
+letter-spacing: 3px;
+color:red;
+font-size:15px; 
+text-transform:uppercase;
+margin-left:80px;
+}
+.about-us-p-two{
+text-transform:capitalize;
+margin-left:80px;
+font-weight: none;   
+}
+/* About Section ends */

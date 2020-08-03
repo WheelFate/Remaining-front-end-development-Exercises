@@ -1,0 +1,36 @@
+body{
+background-color:#DDD;	
+}
+.slider{
+width:650px;
+margin:auto;
+overflow:hidden;	
+}
+.slider ul{
+padding:0;
+width:3000px;	
+list-style:none;
+position:relative;
+animation: sliding 10s ease-in-out infinite;	
+}
+.slider ul li{
+float:left;	
+position:relative;
+}
+.slider h5{
+margin:0;	
+background:#333;
+color:#fff;
+padding:15px;
+text-align:center;
+position:absolute;	
+bottom:0;
+width:100%;
+}
+@keyframes sliding{
+5%,10%{left:0}
+15%,30%{left:-650px;}	
+35%,50%{left:-1300px;}	
+55%,70%{left:-1950px;}
+75%,90%{left:-2600px;}
+}

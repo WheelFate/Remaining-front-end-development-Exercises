@@ -1,0 +1,195 @@
+body{
+font-family: 'Tenali Ramakrishna', sans-serif;
+background-color: #E6E6E6; 
+}
+ul{
+    list-style: none;
+}
+.navbar-design{
+background-color: #34495E;
+height:152px;
+width:100%;
+float:left;
+display:flex;
+}
+.navbar-list{
+display:inline-flex;
+margin:auto;
+padding:auto;
+}
+.navbar-list li{
+list-style: none;
+margin:70px;
+color:rgba(211, 209, 209, 0.856);
+}
+.navbar-list li:hover{
+background-color: orange;
+color:#fff;
+cursor: pointer;
+opacity: 0.5;
+}
+.search-btn{
+width:100%;
+height:145px;
+background-image: url(search.png);
+background-size:100%   
+}
+.weather-div{
+width:210px;
+background-image: url(weather-background.jpg);
+max-width: 100%;
+max-height: 100%;
+display: block;
+}
+.weather-img{
+display:inline-block;
+margin: 0 35px;
+}
+h2{
+font-weight: bold;
+font-size:25px;
+text-align: center;
+}
+.weather-table{
+border: 2px solid #333;    
+}
+.first-degree{
+font-size:50px;
+color:#f50;    
+}
+.days-inside-table{
+color:#f50;
+}
+.full-repoart-btn{
+background-color: #34495E;
+color:#fff;
+text-align: center; 
+margin:25px 42px 0 42px;
+padding:8px 25px 8px 25px;
+font-size: 25px;  
+}
+.full-repoart-btn:hover{
+background-color: #f50;
+opacity: 0.5; 
+cursor: pointer;   
+}
+/* Contact us section start */
+.contact-box{
+    background:#fff;
+    display:flex;	
+    }
+    .contact-left{
+    flex-basis:60%;
+    padding:40px 60px;
+    background-image: url(contact-us-3.jpg);	
+    }
+    .contact-right{
+    flex-basis:40%;
+    padding:40px;
+    background:#f50;
+    color:#fff;	
+    }
+    .container p{
+    margin-bottom:40px;
+    }
+    .input-row{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:20px;	
+    }
+    .input-row .input-group{
+    flex-basis:45%;	
+    }
+    input{
+    width:100%;
+    border:none;
+    border-bottom:1px solid #ccc;
+    outline:none;
+    padding-bottom:5px;	
+    }
+    textarea{
+    width:100%;
+    border:1px solid #ccc;
+    outline:none;
+    padding:10px;
+    box-sizing:border-box;	
+    }
+    label{
+    margin-bottom:6px;
+    display:block;
+    color:#1c005b;	
+    }
+    .send-btn{
+    background:var(--mainColor);
+    width:100px;
+    border:none;
+    outline:none;
+    color:inherit;
+    height:35px;
+    border-radius:30px;
+    margin-top:20px;
+    box-shadow:0px 5px 15px 0px rgba(28,0,181,0.3);	
+    cursor: pointer;
+    }
+    .send-btn:hover{
+        opacity:0.5;
+        color:#fff;
+        background-image: url(contact-us-2.jpg);
+    }
+    .contact-left h3{
+    color:#1c005b;	
+    font-weight:600;
+    margin-bottom:30px;
+    }
+    .contact-right h3{	
+    font-weight:600;
+    margin-bottom:30px;
+    }
+    .contact-us-tr-td:first-child{
+    padding-right:20px;	
+    }
+    .contact-us-tr-td{
+    padding-top:20px;	
+    }
+    .contact-link{
+    color:#fff;  
+    }
+    /* personal-information div start */
+    .personal-information-div{
+        width:85%; 
+        height:250px;
+        background-image: url(nature.jpg);
+        opacity: 0.9;
+        max-width: 100%;
+        max-height: 100%;
+        display: block; 
+        margin: -250px 0 4px 213px;
+        position: relative;
+        text-align: center;
+    }
+    /* personal-information div end */
+    /* person-image div start  */
+    .personal-image-container{
+    background-image: url(contact-us.jpg);
+    height:120px;
+    width:100%;     
+    }
+    .person-image{
+    border: 2px solid #EA3F5C;
+    border-radius: 50%;  
+    }
+    .card-owner{
+    font-weight: bold;
+    }
+    .personal-information-table,.personal-information-table-heading,.personal-information-table-data{
+    border: 1px solid rgb(223, 114, 250);
+    }
+    .pictural-information-element-1{
+        margin: -70px -179px -176px -184px;
+        padding:0;
+    }
+    .pictural-information-element-2{
+    margin:10px 10px 10px 10px;
+    }    
+    /* person-image div end  */
+

@@ -1,0 +1,100 @@
+*{
+   margin:0;
+   padding:0; 
+}
+body{
+    background-color:#fff;	
+    }
+    .slider{
+    width:650px;
+    margin:auto;
+    overflow:hidden;	
+    }
+    .slider ul{
+    padding:0;
+    width:3000px;	
+    list-style:none;
+    position:relative;
+    animation: sliding 10s ease-in-out infinite;	
+    }
+    .slider ul li{
+    float:left;	
+    position:relative;
+    }
+    .slider h5{
+    margin:0;	
+    background:#333;
+    color:#fff;
+    padding:15px;
+    text-align:center;
+    position:absolute;	
+    bottom:0;
+    width:100%;
+    }
+    @keyframes sliding{
+    5%,10%{left:0}
+    15%,30%{left:-650px;}	
+    35%,50%{left:-1300px;}	
+    55%,70%{left:-1950px;}
+    75%,90%{left:-2600px;}
+    }
+    img{
+        width:100vh;
+        height:100vh;
+    }
+    /*  */
+
+    .container{
+        width:80%;
+        margin:50px auto;	
+        }
+        .catogry-items{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-gap: 20px;
+        }
+        .catogry-item{
+            position: relative;
+            background: #fff;
+            text-align: center;
+            align-items: center;
+            border: 3px solid #DDD;
+        }
+        .catogry-item img{
+            width:100%;
+            margin-bottom: 25px;
+        }
+        .catogry-item-subtitle{
+        color:gray;
+        font-weight: normal;
+        }
+        .catogry-item .icon{
+            width:60px;
+            height:30px;
+            background: var(--mainColor);
+            color:#fff;
+            text-align: center;
+            display:block;
+            line-height:30px;
+            position: absolute;
+            bottom:0;
+            right:0;
+            opacity: 0;
+            visibility: hidden;
+            transition:opacity 0.5s ;
+        }
+        .catogry-item:hover .icon{
+            opacity: 1;
+            visibility: visible;
+        }
+        a{
+            text-decoration: none;
+        }
+        .btn{
+        background: #F4C769;
+        width:100%;    
+        }
+        .btn:hover{
+            cursor: pointer;
+            opacity: 0.4;
+        }
